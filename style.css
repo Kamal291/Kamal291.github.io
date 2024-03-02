@@ -26,7 +26,7 @@ background: rgb(255, 254, 254);
    letter-spacing: 8px; 
    
 }
-.header>button{
+.btn{
     cursor: pointer;
     width: 200px;
     height: 50px;
