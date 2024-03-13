@@ -130,11 +130,9 @@ div.w3-container.w3-center.w3-round-xlarge.w3-green{
     width: 90%;
 }
 footer{
-    display: flex;
-    flex-wrap: wrap;
     float: inline-end;
-    font-size: 20px;
-    background-color: #305738;
+    font-size: 30px;
+    background-color: #33633c;
     color: #fff;
     padding: 10px 0;
     text-align: center;
