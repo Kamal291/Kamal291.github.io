@@ -14,7 +14,7 @@ background: rgb(255, 254, 254);
     background-position:center;
     background-size: cover;
     color:whitesmoke; 
-/* What is display flex? */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,19 +46,14 @@ background: rgb(255, 254, 254);
     justify-content: center;
 }
 .mainleft{
-    
     display:flex;
     flex-wrap:wrap;
-    }
-    .mainright{
-    
-        display:flex;
-        flex-wrap:wrap;
-        }
-
-        .mainleft>.left{
-            /* float: left; */
-            /* border-right:1px solid rgb(48, 71, 55);  */
+}
+.mainright{
+     display:flex;
+    flex-wrap:wrap;
+}
+ .mainleft>.left{
             width:100%;
             max-width: 400px;
             margin: 20px auto 0px auto;
@@ -66,9 +61,8 @@ background: rgb(255, 254, 254);
             box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
             margin-bottom:50px ;
             margin-top: 50px;
-        }
-        .mainright>.right{
-            /* float: right; */
+}
+.mainright>.right{
             width:90%;
             max-width: 400px;
           
@@ -78,29 +72,11 @@ background: rgb(255, 254, 254);
             margin-bottom:60px ;
             margin-top: 70px;
             
-        }
-/* main{
-    display: grid;
-    grid-template-columns:40% 60%;
-    margin-top:3em;
-} */
-
-/* article{
-display: block;
-}  */
-/* .box-contact{
-    width:100%;
-    max-width :250px; 
-    margin: 50px auto 0px auto;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
-    margin-bottom:50px ;
-} */
+}
 a{
-
-text-decoration:#305738;
-color: black;
-padding: 10px 2px;
+    text-decoration:#305738;
+    color: black;
+    padding: 10px 2px;
 }
 img{
     color:rgb(92, 161, 92);
@@ -110,49 +86,7 @@ span{
     
     margin: 10px 10px;
 }
-/* .box-activies{
-    width:100%;
-    max-width: 250px;
-    margin: 20px auto 0px auto;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
-    margin-bottom:20px ;
-}
-.box-skills{
-    width:100%;
-    max-width: 250px;
-    margin: 20px auto 0px auto;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
-    margin-bottom:20px ;
-}
 
-.box-about{
-    width:100%;
-    max-width: 400px;
-    margin: 20px auto 0px auto;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
-    margin-bottom:20px ;
-    --one-unit: 1cqw;
-}
-.box-education{
-    width:90%;
-    max-width: 400px;
-    margin: 20px auto 0px auto;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
-    margin-bottom:20px ;
-}
-.box-hobbies{
-width:100%;
-    max-width: 400px;
-    margin: 20px auto 0px auto;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
-    margin-bottom:20px ;
-    --one-unit: 1cqw;
-} */
 .h2{
 color :rgb(43, 102, 46);
 font:bold;
@@ -190,15 +124,7 @@ div.w3-container.w3-center.w3-round-xlarge.w3-green{
     width: 90%;
 }
 .footer{
-    /* --fa-style-family-brands: "Font Awesome 6 Brands";
-    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
-    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
-    --fa-style-family-classic: "Font Awesome 6 Free";
-    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"; */
-    /* box-sizing: border-box;
-    font-family: Poppins,sans-serif; */
     font-size: 20px;
-    /* margin: auto; */
     background-color: #305738;
     color: #fff;
     padding: 10px 0;
