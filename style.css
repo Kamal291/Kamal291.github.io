@@ -130,6 +130,7 @@ div.w3-container.w3-center.w3-round-xlarge.w3-green{
     width: 90%;
 }
 .footer{
+    float: inline-end;
     font-size: 20px;
     background-color: #305738;
     color: #fff;
