@@ -46,9 +46,9 @@ background: rgb(255, 254, 254);
     justify-content: center;
 }
 .mainleft{
-    
     display:flex;
     flex-wrap:wrap;
+
     }
     .mainright{
     
@@ -56,7 +56,9 @@ background: rgb(255, 254, 254);
         flex-wrap:wrap;
         }
 
-        .mainleft>.left{
+ 
+ .mainleft>.left{
+
             width:100%;
             max-width: 400px;
             margin: 20px auto 0px auto;
@@ -64,9 +66,8 @@ background: rgb(255, 254, 254);
             box-shadow: 0px 0px 10px 0px rgb(19, 32, 22);
             margin-bottom:50px ;
             margin-top: 50px;
-        }
-        .mainright>.right{
-            /* float: right; */
+}
+.mainright>.right{
             width:90%;
             max-width: 400px;
           
@@ -76,13 +77,11 @@ background: rgb(255, 254, 254);
             margin-bottom:60px ;
             margin-top: 70px;
             
-        }
 
 a{
-
-text-decoration:#305738;
-color: black;
-padding: 10px 2px;
+    text-decoration:#305738;
+    color: black;
+    padding: 10px 2px;
 }
 img{
     color:rgb(92, 161, 92);
@@ -92,6 +91,8 @@ span{
     
     margin: 10px 10px;
 }
+
+
 .h2{
 color :rgb(43, 102, 46);
 font:bold;
@@ -129,18 +130,11 @@ div.w3-container.w3-center.w3-round-xlarge.w3-green{
     width: 90%;
 }
 .footer{
-    /* --fa-style-family-brands: "Font Awesome 6 Brands";
-    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
-    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
-    --fa-style-family-classic: "Font Awesome 6 Free";
-    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"; */
-    /* box-sizing: border-box;
-    font-family: Poppins,sans-serif; */
     font-size: 20px;
-    /* margin: auto; */
     background-color: #305738;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     width: 100%;
+}
 }
